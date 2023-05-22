@@ -2,14 +2,20 @@
 body{
 	background-color: #cccccc;
 }
-h1,h2,.c2,h3{text-align:center;}
+h1,h2,.c2{text-align:center;}
 a{
 	text-decoration: none;
+}
+li{
+	list-style-type:none;
+	margin:0px;
+	padding:0px;
 }
 .player_one{border:1px solid black;
 		   padding:5px;
 		   background-color:white;
-			margin:5px;}
+			margin:5px;
+		   }
 .player_two{border:1px solid black;
 		    padding:20px;
 		   background-color:white;}
